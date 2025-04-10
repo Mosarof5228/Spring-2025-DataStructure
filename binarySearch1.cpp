@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int myArray[6] = {1, 2, 3, 4, 5, 6};
     int left = 0, right = 5, middle;  // Initialize left and right
-    int targetData = 6;
+    int targetData = 100;
 
     while (left <= right) {
         middle = (left + right) / 2;
